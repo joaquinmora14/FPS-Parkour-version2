@@ -16,8 +16,11 @@ public class MercanciaScrpt : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            moneyManager.UpdateMoney(-cost);
-            Destroy(gameObject);
+            if (moneyManager.UpdateMoney(-cost))
+            {
+                Destroy(gameObject);
+            }
+          
         }
     }
 
