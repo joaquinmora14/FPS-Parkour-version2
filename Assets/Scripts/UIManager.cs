@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
 
     public void UpdateHealthText(string health)
     {
-        SaludTxt.text = "Salud: " + health;
+        SaludTxt.text = "Vidas: " + health;
     }
 
 
