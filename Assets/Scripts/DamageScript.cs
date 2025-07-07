@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DamageScript : MonoBehaviour
 {
-    public float damage = 10;
+    public float damage = 1;
     public SaludManager SaludManager;
 
     void Start()
